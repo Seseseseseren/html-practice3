@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+html{
+  font-size: 100%;
+}
+
+main{
+  display: block;
+}
+
+#mainvisual img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center top;
+  
+}
+
+.recipe-diary{
+  margin: 50px auto;
+  text-align: center;
+}
+
+.recipe-diary h1{
+  font-family: Helvetica Neue;
+  margin-bottom: 20px;
+}
+
+.recipe-diary p{
+  font-family: Arial;
+}
+
+.flex{
+  display: flex;
+  margin-bottom: 60px
+}
+
+.flex li{
+  width: calc(100%/3);
+}
+
+.flex li img{
+  width: 100%;
+  height: 500px;
+  vertical-align: bottom;
+}
+
+.recipe-index{
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 0 20px;
+}
+
+.recipe-index .btn{
+  display: inline-block;
+  color: black;
+  border: solid 1px black;
+  padding: 18px 60px;
+  text-decoration: none;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-flex li{
+  margin-right: 10px;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.footer-flex li a{
+  color: black;
+}
+
+footer p{
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
